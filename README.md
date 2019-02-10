@@ -4,7 +4,7 @@ See: https://en.wikipedia.org/wiki/Huber_loss
 
 ## Files:
 - gradient_descent-huber.py\
-The function which performs gradient descent, minimizing the huber loss of the data, and returns improved weights and bias.
+Performs gradient descent, minimizing the huber loss of the data. Code is vectorized for optimization. Returns improved weights and bias.
 - plot_loss.py\
 Plots squared error loss and Huber loss functions. Currently t=0 and delta=5 hard-coded.
 - huber-squared-loss.png\
